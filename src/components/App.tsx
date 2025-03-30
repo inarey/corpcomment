@@ -5,9 +5,11 @@ import HashTags from './HashTags';
 export default function App() {
   return (
     <>
+    <div className="app">
       <Footer />
       <Container />
       <HashTags />
+      </div>
     </>
   );
 }
